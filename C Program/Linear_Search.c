@@ -3,7 +3,7 @@
 // return -1
  
 #include <stdio.h>
- 
+ // Linear Search Function 
 int search(int arr[], int n, int x)
 {
     int i;
@@ -13,7 +13,7 @@ int search(int arr[], int n, int x)
     return -1;
 }
  
-// Driver code
+// Main function
 int main(void)
 {
     int arr[] = { 2, 3, 4, 10, 40 };
